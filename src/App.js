@@ -27,11 +27,11 @@ function App() {
   <Route  path="/home">
     <Homes></Homes>
   </Route>
-  <Route  path="/about">
-    <About></About>
-  </Route>
   <Route  path="/service">
    <Services></Services>
+  </Route>
+  <Route  path="/about">
+    <About></About>
   </Route>
   <Route  path="/contact">
    <ContactUs></ContactUs>
