@@ -1,12 +1,10 @@
-import logo from './logo.png';
+
 import './App.css';
 import Header from './components/Header/Header';
 import Homes from './components/Homes/Homes';
 import Fotter from './components/Fotter/Fotter';
-import {
-  BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import About from './components/About/About';
-import Service from './components/Service/Service';
 import Services from './components/Services/Services';
 import NotFound from './components/NotFound/NotFound';
 import ContactUs from './components/ContactUs/ContactUs';
@@ -41,10 +39,10 @@ function App() {
   <Route  path="*">
    <NotFound></NotFound>
   </Route>
-
      </Switch>
      <Fotter></Fotter>
       </Router>
+     
   
   
 
