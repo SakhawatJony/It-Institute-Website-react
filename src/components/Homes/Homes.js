@@ -1,6 +1,9 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
+import About from '../About/About';
+import ContactUs from '../ContactUs/ContactUs';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
@@ -24,6 +27,9 @@ Learn More
         </Col>
       </Row>
     </Container>
+    <Services></Services>
+    <About></About>
+    <ContactUs></ContactUs>
         </div>
     );
 };
