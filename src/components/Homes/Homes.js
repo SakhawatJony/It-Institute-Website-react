@@ -3,6 +3,7 @@ import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import About from '../About/About';
 import ContactUs from '../ContactUs/ContactUs';
+import Service from '../Service/Service';
 import Services from '../Services/Services';
 
 const Home = () => {

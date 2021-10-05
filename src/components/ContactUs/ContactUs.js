@@ -12,7 +12,7 @@ const ContactUs = () => {
         <div className="container text-center">
             <h4 className="fw-bold mt-3 pt-3 pb-5">Contact Us</h4>
             <Row className="text-left">
-          <Col xs={6} md={6}>
+          <Col xs={6} md={6} className="" >
               <h3>Get Intouch</h3>
            <p>Have a question or just want to say hi? We'd love to hear from you.</p>
            <div className="container justify-content-start align-items-start">
@@ -27,7 +27,7 @@ const ContactUs = () => {
    
        
           </Col>
-          <Col  xs={6} md={6} className="bg-light p-2" >
+          <Col  xs={6} md={6} className="shadow-lg p-5 mb-5 bg-light rounded" >
            
            <div className="d-flex">
            
